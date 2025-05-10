@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Carta2</title>
+    </head>
+    <body>
+        <p class="instruction">¡Haz clic en el corazon!</p>
+        <div class="container">
+            <label>
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            <div class="message">
+                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Queriada Krysta</h1>
+                <p> 
+                    <span>
+                        &emsp; Para serte sincero me gustas desde que estabamos saliendo de tercero de secundaria pero como ya tenia la confianza con tigo no me afectaba pero pues siempre supe que me gustabas pero nunca pude decirtelo aunque trate de decirtelo pero no me daba esa voz de decirlo.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp;  Se que prefieres tener novio hasta los 21 pero aun asi prefiero que lo sepas aun sabiendo que puedes decir que no, asi que prefiero decirlo del unico medio que se y es este asi que si me puedes decir que una respuesta
+                    </span>      
+                    <form action="Enviar.php" method="post">
+                        <input type="radio" name="res" id="res" value="Si"> Si<br>
+                        <input type="radio" name="res" id="res" value="No"> No<br>
+                        <input type="radio" name="res" id="res" value="Hasta">Hasta los 21<br>
+        <input type="submit" name="Enviar">
+    </form>
+                </p>
+                <br>
+                <div class="sincere">
+                    <p style="font-weight: bold;"> Te quiere,</p>
+                    <p>Luis</p>
+                 </div>
+                 <form action="a.html">
+         <button id="toggle-atras">Anterior</button></form>
+         <form action="login.html">
+         <button id="toggle-atras">Cerrar sesión</button></form>
+            </div>
+        </div>
+        
+        <script src="jquery.js"></script>
+        <script src="jquery2.1.js"></script>
+        <script defer src="valentine-confession.js"></script>
+    </body>
+</html>
+
